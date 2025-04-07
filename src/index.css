@@ -1,1 +1,15 @@
 @import "tailwindcss";
+@keyframes borderPulse {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-borderPulse {
+    background-size: 200% 200%;
+    animation: borderPulse 6s ease infinite;
+  }
+  
