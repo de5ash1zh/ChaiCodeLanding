@@ -19,7 +19,13 @@ function Navbar() {
       }`}
     >
       <nav className="max-w-6xl mx-auto flex justify-between items-center text-white">
-        <div className="text-xl font-semibold">ChaiCode</div>
+        <div className="text-xl font-semibold">
+          <img
+            src="src/assets/images/chaicode-white.png"
+            alt="ChaiCode Logo"
+            className="h-8"
+          />
+        </div>
 
         <ul className="hidden md:flex gap-6 text-sm">
           <li>
