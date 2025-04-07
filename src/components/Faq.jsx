@@ -58,7 +58,7 @@ function Faq() {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.3 }}
+                    transition={{ duration: 0.15, ease: "easeOut" }}
                     className="px-6 pb-4 text-gray-300 text-sm"
                   >
                     {faq.answer}
