@@ -21,7 +21,7 @@ function Navbar() {
       <nav className="max-w-6xl mx-auto flex justify-between items-center text-white">
         <div className="text-xl font-semibold">
           <img
-            src="src/assets/images/chaicode-white.png"
+            src="https://ik.imagekit.io/de5ash1zh/chai-assets/chaidocs-white.png?updatedAt=1744020232833"
             alt="ChaiCode Logo"
             className="h-8"
           />
